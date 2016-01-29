@@ -44,3 +44,6 @@ TARGET_TC_KERNEL := 4.9-linaro
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 
+# Vendor init
+TARGET_INIT_VENDOR_LIB := libinit_msm
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/serrano3gxx/init/init_serrano3g.cpp
